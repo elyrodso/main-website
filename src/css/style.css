@@ -103,6 +103,11 @@ section {
     height: 300px;
 }
 
+section h1 {pointer-events: none;}
+section p {pointer-events: none;}
+section img {pointer-events: none;}
+section video {pointer-events: none;}
+
 .se_content {
     position: absolute;
     left: 50%;
