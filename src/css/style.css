@@ -2,6 +2,7 @@ body {
     background: #0f1d2d;
     color: white;
     font-family: 'POPPINS';
+    overflow-x: hidden !important;
 }
 
 header {
@@ -25,6 +26,59 @@ button#btn {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+/* Support for mobile */
+.mobile_menu {
+    display: none;
+}
+button#mobile_menu {
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    margin-top: 4px;
+}
+div#mm {
+    background: #0b1725;
+    position: fixed;
+    top: 72px;
+    right: 0px;
+    text-align: left;
+    width: 290px;
+    font-size: 16px;
+    padding: 20px 0px 20px 30px;
+    border-radius: 7px;
+}
+div#mm li {
+    list-style: none;
+    margin: 13px 0px;
+}
+
+@media only screen and (min-width:1081px){
+    .if_mobile {display: none;}
+}
+
+@media only screen and (max-width:1080px){
+    .if_desktop {display: none;}
+    .sections {width: 100% !important;}
+    .h_content, .f_content {
+        width: calc(100% - 50px) !important;
+    }
+    .se_content {
+        width: calc(100% - 50px) !important;
+        display: inherit !important;
+        text-align: center;
+        left: 50%;
+        transform: translate(-33%);
+    }
+    .doc {
+        width: calc(100% - 50px);
+        margin-left: 30px;
+    }
+    .se_text p {width: inherit !important;}
+    .se_img {display: none !important;}
+    .f_grid{grid-template-columns: 100% !important; grid-gap: 0px !important;}
 }
 
 /* Header */
