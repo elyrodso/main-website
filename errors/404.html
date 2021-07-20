@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Falix</title>
+        
+        <meta name="theme-color" content="#0b1725">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" sizes="1024x1024" href="../src/images/icons/favicon/1024x1024">
+        <link rel="icon" type="image/png" sizes="256x256" href="../src/images/icons/favicon/256x256">
+        <link rel="icon" type="image/png" sizes="64x64" href="../src/images/icons/favicon/64x64">
+        <link rel="icon" type="image/png" sizes="32x32" href="../src/images/icons/favicon/32x32">
+        <link rel="icon" type="image/png" sizes="16x16" href="../src/images/icons/favicon/16x16">
+        <link rel="shortcut icon" type="image/x-icon" href="../src/images/icons/favicon/1024x1024.png">
+
+        <link rel="stylesheet" href="../src/css/animations.css">
+        <link rel="stylesheet" href="../src/css/fonts.css">
+        <link rel="stylesheet" href="../src/css/style.css">
+
+        <script src="https://kit.fontawesome.com/db4a23598f.js"></script>
+        <script src="../src/js/dropdown-menus/apps.js"></script>
+        <script src="../src/js/dropdown-menus/get-started.js"></script>
+        <script src="../src/js/menu/menu-mobile.js"></script>
+        <script src="../src/js/menu/menu.js"></script>
+        <script src="../src/js/include.js"></script>
+    </head>
+    <header id="h_">
+        <div class="h_content">
+            <div class="h_left">
+                <h1 onclick="location.href = 'https://falix.gg/'">Falix</h1>
+            </div>
+            <div class="h_right">
+                <div class="if_mobile">
+                    <button id="mobile_menu" onmouseover="openMobileMenu();" onmouseleave="closeMobileMenu();"><i class="fas fa-bars"></i></button>
+                    <div id="mm" class="mobile_menu">
+                        <a style="margin-left: 0px;" href="https://help.falixnodes.net">Help Center</a>
+                        <p>Apps:</p>
+                        <ui>
+                            <li onclick="location.href = 'https://software.falixnodes.net/'"><i class="fas fa-desktop"></i> Desktop Software</li>
+                            <li onclick="location.href = 'https://github.com/FalixInc/FalixCoins-Miner/releases'"><i class="fas fa-desktop"></i> FalixCoins Miner</li>
+                            <li onclick="location.href = 'https://play.google.com/store/apps/details?id=net.falixnodes.falixcoins'"><i style="margin: 0px 5px 0px 4px;" class="fas fa-mobile-alt"></i> FalixCoins</li>
+                        </ui>
+                        <p>Get Started:</p>
+                        <ui>
+                            <li onclick="location.href = 'https://client.falixnodes.net/'"><i class="fas fa-user"></i> Client Panel</li>
+                            <li onclick="location.href = 'https://panel.falixnodes.net/'"><i class="fas fa-stream"></i> Game Panel</li>
+                        </ui>
+                    </div>
+                </div>
+                <div class="if_desktop">
+                    <a href="https://help.falixnodes.net/" target="_blank">Help Center</a>
+                    <a onmouseover="open_dropdown_apps();" onmouseleave="close_dropdown_apps();">Apps <i class="fas fa-sort-down"></i></a>
+                    <ui onmouseover="open_dropdown_apps();" onmouseleave="close_dropdown_apps();" class="dropdown" id="dropdown_apps">
+                        <li onclick="location.href = 'https://software.falixnodes.net/'"><i class="fas fa-desktop"></i> Desktop Software</li>
+                        <li onclick="location.href = 'https://github.com/FalixInc/FalixCoins-Miner/releases'"><i class="fas fa-desktop"></i> FalixCoins Miner</li>
+                        <li onclick="location.href = 'https://play.google.com/store/apps/details?id=net.falixnodes.falixcoins'"><i style="margin: 0px 13px 0px 8px;" class="fas fa-mobile-alt"></i> FalixCoins</li>
+                    </ui>
+                    <a onmouseover="open_dropdown_getStarted();" onmouseleave="close_dropdown_getStarted();">Get Started <i class="fas fa-sort-down"></i></a>
+                    <ui style="margin: 40px 0px 0px 172px;" onmouseover="open_dropdown_getStarted();" onmouseleave="close_dropdown_getStarted();" class="dropdown" id="dropdown_get-started">
+                        <li onclick="location.href = 'https://client.falixnodes.net/'"><i class="fas fa-user"></i> Client Panel</li>
+                        <li onclick="location.href = 'https://panel.falixnodes.net/'"><i class="fas fa-stream"></i> Game Panel</li>
+                    </ui>
+                </div>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="sections">
+            <section style="height: fit-content">
+                <div class="doc">
+                    <h1 style="font-size: 42px;">Error 404</h1>
+                    <p>This webpage can't be found.</p>          
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
+<style>
+.sections {
+    top: 100px;
+    width: 1000px;
+    left: 50%;
+    transform: translate(-50%);
+}
+</style>
