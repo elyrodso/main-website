@@ -13,3 +13,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - run: sudo cp -R /usr/share/nginx/github-actions-runners/falix.gg/_work/main-website/main-website/* /usr/share/nginx/demo/falix.gg/
+        
+  check-demo-mac:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - run: open https://demo.korbsstudio.com/falix.gg/
+    - run: sleep 5;
+    - run: screencapture ~/Desktop/screenshot.png
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.3
+      with:
+        name: my-artifact
+        path: ~/Desktop/
