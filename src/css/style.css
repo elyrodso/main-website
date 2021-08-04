@@ -122,7 +122,7 @@ ui#dropdown_get-started {
 .dropdown {
     background: #0B1725;
     position: absolute;
-    margin: 40px 0px 0px 90px;
+    margin: 10px 0px 0px 90px;
     border-radius: 4px;
     padding: 10px 20px;
     text-align: left;
