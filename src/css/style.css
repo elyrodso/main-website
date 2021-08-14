@@ -16,7 +16,7 @@ header {
 }
 
 ::-webkit-scrollbar {width: 0px;}
-::selection {background: #17365a; color: rgba(255, 255, 255, 0.5);}
+::selection {background:inherit; color:inherit}
 *:focus {outline: none;}
 a {color: #2970cc;}
 
@@ -244,8 +244,39 @@ section#footer a {
 p#social-icons {
     cursor: default;
     display: flex;
+    pointer-events: all;
 }
 p#social-icons i {
     margin-right: 10px;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+section#rtl p {width: fit-content;}
+section#rtl .se_text {margin-left: 50px;}
+section#rtl h1 {direction: ltr;}
+.db_stats {display: inline-flex;}
+.dbs_users, .dbs_servers {margin: 0px 30px;}
+
+p#dbs_ur {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+    background: -webkit-linear-gradient(0deg,lime, rgb(0, 148, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p#dbs_s {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+    background: -webkit-linear-gradient(0deg,#3e92ff, #1352a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
