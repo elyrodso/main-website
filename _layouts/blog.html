@@ -15,3 +15,14 @@
 <style>
 .f_content {margin-top: 260px}
 </style>
+<script>
+    const event11 = window.addEventListener('scroll', function(e) {
+        if(this.scrollY < 50) {
+            document.getElementById('h_').style.background = 'transparent';
+            document.getElementById('h_').style.backdropFilter = 'unset';
+        } else {
+            document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
+            document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
+        }
+    });
+</script>
