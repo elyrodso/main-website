@@ -95,7 +95,7 @@ div#mm li {
     section#hero {background-size: 260% !important;}
     .if_desktop {display: none;}
     .sections {width: 100% !important;}
-    .h_content, .f_content {
+    .h_content, .f_content, .article {
         width: calc(100% - 50px) !important;
     }
     .se_content {
