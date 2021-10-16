@@ -1,3 +1,15 @@
+{% include header.html %}
+<div class="error-container">
+    <div class="heading">
+        <h1>{{page.icon}} {{page.title}}</h1>
+    </div>
+    <div class="error-content">
+        <div class="scrollable">
+            <p>{{page.error}}</p>
+        </div>
+    </div>
+</div>
+<style>
 :root {
     --accent: #2970cc;
 }
@@ -14,7 +26,7 @@ body {
 ::selection {background:inherit; color:inherit}
 *:focus {outline: none;}
 a {color: #2970cc;}
-h1, p, i {pointer-events: none;}
+.error-container {pointer-events: none;}
 
 @keyframes fadeInUp {
     from {
@@ -100,3 +112,4 @@ h1, p, i {pointer-events: none;}
     margin-bottom: 17px;
 }
 
+</style>

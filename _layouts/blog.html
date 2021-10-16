@@ -1,0 +1,17 @@
+{% include header.html %}
+<div style="top: 77px" class="sections">
+    <section id="blog">
+        <div class="posts">
+            {% for post in site.posts %}
+            <div onclick="location.href = '{{ post.url }}'" class="card">
+                <h1>{{ post.title  | truncatewords: 7 }}</h1>
+                <h2 id="date">{{ post.date }}</h2>
+                <img src="{{ post.image }}">
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+{% include footer.html %}
+<style>
+.f_content {margin-top: 260px}
+</style>

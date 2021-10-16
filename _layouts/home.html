@@ -1,0 +1,120 @@
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://i.imgur.com/JM1PpWt.png" />
+    <meta property="og:url" content="https://falixnodes.net/" />
+    <meta property="og:site_name" content="FalixNodes" />
+</head>
+{% include header.html %}
+<section id="hero">
+    <div class="sh_">
+        <h1>Free Server Deployment</h1>
+        <p>With Falix's, you can enjoy playing with your buddies and building your own server without worrying about the cost. It's free!</p>
+    </div>
+    <script>
+        const event11 = window.addEventListener('scroll', function(e) {
+            if(this.scrollY < 530) {
+                document.getElementById('h_').style.background = 'transparent';
+                document.getElementById('h_').style.backdropFilter = 'unset';
+            } else {
+                document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
+                document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
+            }
+        });
+    </script>
+</section>
+<div class="sections">
+    <section id="blog">
+        <div class="posts">
+            {% for post in site.posts limit: 4 %}
+            <div onclick="location.href = '{{ post.url }}'" class="card">
+                <h1>{{ post.title }}</h1>
+                <h2 id="date">{{ post.date }}</h2>
+                <img src="{{ post.image }}">
+            </div>
+            {% endfor %}
+            <button onclick="location.href = '{{site.baseurl}}/blog/'">View More <i class="fa-duotone fa-arrow-right"></i></button>
+        </div>
+    </section>
+    <section id="rtl" style="direction: rtl; text-align: left;">
+        <div class="se_content">
+            <div class="se_text">
+            <h1><i class="fa-duotone fa-user-group-crown"></i> Play with your Buddies</h1>
+            <p>Play with your buds on your own own Minecraft server, either cooperatively or competitively. Along with playing Bombsquard, Minetest, Impostor, Unturned, CryoFall, and other games together</p>
+            </div>
+            <div class="se_img">
+                <video style="border-radius: 7px;width: 100%;height: 100%;object-fit: cover;" src="https://media.korbsstudio.com/falix/players.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="se_content">
+            <div class="se_text">
+            <h1><i class="fa-duotone fa-handshake-angle"></i> Simple to Use</h1>
+            <p>We are user-friendly to all of our users; we offer a lot of tutorials for newcomers who are looking to set up their own server, and we also present a user-friendly panel to all of our clients. By the way, we also have community-powered support as well as our own support team</p>
+            </div>
+            <div class="se_img">
+                <img style="object-position: center;" src="./assets/images/027858.png">
+            </div>
+        </div>
+    </section>
+    <section id="rtl" style="direction: rtl; text-align: left;">
+        <div class="se_content">
+            <div class="se_text">
+            <h1><i class="fa-duotone fa-microchip"></i> Powered by AMD Epyc/Ryzen</h1>
+            <p>Some hosts are still using old and slow Intel Xeon and it's DDR3, it's just ew. We are not being cheap in our expenses, we try our best to keep provide as up to date and excellent hardware as it can be</p>
+            </div>
+            <div class="se_img">
+                <img style="object-position: center;" src="https://www.amd.com/system/files/2021-02/720217-blue-server-bg-1920x600.jpg">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="se_content">
+            <div class="se_text">
+            <h1><i class="fa-duotone fa-comments-question-check"></i> See Guides and more</h1>
+            <p>Do you seek guidance for something? Something went wrong? Learn more about it in our help center. You are also welcome to contribute your knowledge and experience to our Help Center, which is open sourced on GitHub</p>
+            <button id="btn" onclick="location.href = 'https://help.falixnodes.net/'"><i class="fa-duotone fa-comments-question-check"></i> Visit Help Center</button>
+            <button id="btn" onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/'"><i class="fa-brands fa-github"></i> Contribute My Knowledge</button>
+            </div>
+            <div class="se_img">
+                <img src="./assets/images/pBr39F.png">
+            </div>
+        </div>
+    </section>
+    <section id="rtl" style="direction: rtl; text-align: left;">
+        <div class="se_content">
+            <div class="se_text">
+            <h1><i class="fa-duotone fa-sidebar"></i> Try our Desktop Software</h1>
+            <p>Falix Software on your desktop makes it easy to access all of Falix from the a centralized place </p>
+            <button id="btn" onclick="location.href = 'https://software.falixnodes.net/'"><i class="fa-duotone fa-arrow-down-to-line"></i> Download Now</button>
+            </div>
+            <div class="se_img">
+                <img src="./assets/images/ZpB4kQJ.png">
+            </div>
+        </div>
+    </section>
+{% include footer.html %}
+
+<style>
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes heroZoomOut {
+    from {
+        background-size: 125%;
+    }
+    to {
+        background-size: 100%;
+    }
+}
+
+body {
+    animation: 0.7s fadeInUp ease;
+}
+</style>
