@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fonts.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+
+    <script src="{{site.baseurl}}/assets/js/dropdown-menus/get-started.js"></script>
     <script src="https://kit.fontawesome.com/fc093d7fbf.js" crossorigin="anonymous"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> 
     <script src="https://scripts.korbsstudio.com/ie-detect/dis-allow.js"></script>
@@ -24,7 +26,7 @@
         </div>
         <div class="h_right">
             <div class="if_mobile">
-                <a id="ges" href="https://client.falixnodes.net/">Get Started</a>
+                <a id="ges" href="https://client.falixnodes.net/"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
             </div>
             <div class="if_desktop">
                 <a href="https://help.falixnodes.net/" target="_blank">Help Center</a>
@@ -33,11 +35,11 @@
                     <li onclick="location.href = 'https://software.falixnodes.net/'"><i class="fas fa-desktop"></i> Desktop Software</li>
                     <li onclick="location.href = 'https://play.google.com/store/apps/details?id=net.falixnodes.falixcoins'"><i style="margin: 0px 13px 0px 8px;" class="fas fa-mobile-alt"></i> FalixCoins</li>
                 </ui>
-                <a id="ges" onmouseover="open_dropdown_getStarted();" onmouseleave="close_dropdown_getStarted();">Get Started</a>
-                <ui style="margin: 10px 0px 0px 172px;" onmouseover="open_dropdown_getStarted();" onmouseleave="close_dropdown_getStarted();" class="dropdown" id="dropdown_get-started">
-                    <li onclick="location.href = 'https://client.falixnodes.net/'"><i class="fas fa-user"></i> Client Panel</li>
-                    <li onclick="location.href = 'https://panel.falixnodes.net/'"><i class="fas fa-stream"></i> Game Panel</li>
-                </ui>
+                <a id="ges" onclick="dropdownGS()"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
+                <div style="display: none;" class="dropdown_menu" id="dropdown_getStarted">
+                    <a href="https://client.falixnodes.net/" target="_blank"><i class="fa-duotone fa-id-card"></i> Client Panel</a>
+                    <a href="https://panel.falixnodes.net/" target="_blank"><i class="fa-duotone fa-server"></i> Game Panel</a>
+                </div>
             </div>
         </div>
     </div>

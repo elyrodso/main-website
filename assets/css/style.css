@@ -67,7 +67,7 @@ div#mm li {
     .card h1 {margin: 127px 22px -169px 12px !important;}
     a#ges {font-size: 14px;}
     a#ges {
-        margin: -8px 0px 0px -120px !important;
+        margin: -8px 0px 0px -137px !important;
         position: absolute !important;
         padding: 12px 20px !important;
     }
@@ -405,3 +405,26 @@ img#thumbnail {
     pointer-events: none;
 }
 
+
+div#dropdown_getStarted {
+    position: absolute;
+    background: #1d2a43;
+    width: 170px;
+    right: 0px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+div#dropdown_getStarted a {
+    background: #413e5e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flow-root;
+    text-align: left;
+    margin: 10px;
+    font-size: 12px;
+}
+
+div#dropdown_getStarted a i {
+    margin-right: 10px;
+}
