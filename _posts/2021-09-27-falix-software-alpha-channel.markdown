@@ -3,7 +3,7 @@ layout: post
 title:  "Introducing Falix Software Alpha Channel"
 date:   2021-09-27 21:33:17 -0400
 permalink: /blog/falix-software-alpha-channel/
-image: /assets/images/posts/thumbnails/falix-alpha-channel.png
+image: /assets/images/posts/thumbnails/falix-alpha-channel.webp
 ---
 
 <img id="thumbnail" src="{{page.image}}">

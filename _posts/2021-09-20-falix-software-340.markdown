@@ -3,7 +3,7 @@ layout: post
 title:  "FalixNodes Software v3.4.0 Released"
 date:   2021-09-20 21:33:17 -0400
 permalink: /blog/falix-software-3.4.0-released/
-image: /assets/images/posts/thumbnails/falix-software-340.png
+image: /assets/images/posts/thumbnails/falix-software-340.webp
 ---
 
 <img id="thumbnail" src="{{page.image}}">
