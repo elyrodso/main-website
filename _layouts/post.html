@@ -1,4 +1,8 @@
 {% include header.html %}
+<head>
+    <meta name='description' content='{{ content  | truncatewords: 7 }}'>
+    <meta property="og:image" content="{{ post.image }}">
+</head>
 
 <div class="article">
     {{content}}
