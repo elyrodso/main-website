@@ -29,7 +29,7 @@
             <div onclick="location.href = '{{ post.url }}'" class="card">
                 <h1>{{ post.title }}</h1>
                 <h2 id="date">{{ post.date }}</h2>
-                <img src="{{ post.image }}">
+                <img alt="{{ post.title }}" src="{{ post.image }}">
             </div>
             {% endfor %}
             <button onclick="location.href = '{{site.baseurl}}/blog/'">View More <i class="fa-duotone fa-arrow-right"></i></button>
@@ -42,7 +42,7 @@
             <p>Play with your buds on your own own Minecraft server, either cooperatively or competitively. Along with playing Bombsquard, Minetest, Impostor, Unturned, CryoFall, and other games together</p>
             </div>
             <div class="se_img">
-                <video style="border-radius: 7px;width: 100%;height: 100%;object-fit: cover;" src="https://media.korbsstudio.com/falix/players.mp4" muted autoplay loop></video>
+                <video style="border-radius: 7px;width: 100%;height: 100%;object-fit: cover;" id="players_video" src="https://media.korbsstudio.com/falix/players.mp4" muted autoplay playsinline loop></video>
             </div>
         </div>
     </section>
@@ -53,7 +53,7 @@
             <p>We are user-friendly to all of our users; we offer a lot of tutorials for newcomers who are looking to set up their own server, and we also present a user-friendly panel to all of our clients. By the way, we also have community-powered support as well as our own support team</p>
             </div>
             <div class="se_img">
-                <img style="object-position: center;" src="./assets/images/027858.webp">
+                <img alt="Figma Artwork created by Korbs Studio, trying to represent Discord" style="object-position: center;" src="./assets/images/027858.webp">
             </div>
         </div>
     </section>
@@ -64,7 +64,7 @@
             <p>Some hosts are still using old and slow Intel Xeon and it's DDR3, it's just ew. We are not being cheap in our expenses, we try our best to keep provide as up to date and excellent hardware as it can be</p>
             </div>
             <div class="se_img">
-                <img style="object-position: center;" src="https://www.amd.com/system/files/2021-02/720217-blue-server-bg-1920x600.jpg">
+                <img style="object-position: center;" alt="Server photo from AMD" src="https://www.amd.com/system/files/2021-02/720217-blue-server-bg-1920x600.jpg">
             </div>
         </div>
     </section>
@@ -77,7 +77,7 @@
             <button id="btn" onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/'"><i class="fa-brands fa-github"></i> Contribute My Knowledge</button>
             </div>
             <div class="se_img">
-                <img src="./assets/images/FFacnHC52.webp">
+                <img alt="Help Center website" src="./assets/images/FFacnHC52.webp">
             </div>
         </div>
     </section>
@@ -89,7 +89,7 @@
             <button id="btn" onclick="location.href = 'https://software.falixnodes.net/'"><i class="fa-duotone fa-arrow-down-to-line"></i> Download Now</button>
             </div>
             <div class="se_img">
-                <img style="object-position: center;" src="./assets/images/ZpB4kQJ.webp">
+                <img alt="FalixNodes Software" style="object-position: center;" src="./assets/images/ZpB4kQJ.webp">
             </div>
         </div>
     </section>

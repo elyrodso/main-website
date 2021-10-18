@@ -308,37 +308,6 @@ section#rtl h1 {direction: ltr;}
 .db_stats {display: inline-flex;}
 .dbs_users, .dbs_servers {margin: 0px 30px;}
 
-p#dbs_ur {
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0px;
-    background: -webkit-linear-gradient(0deg,lime, rgb(0, 148, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-p#dbs_s {
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0px;
-    background: -webkit-linear-gradient(0deg,#3e92ff, #1352a3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .posts {
     position: absolute;
