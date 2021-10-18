@@ -14,12 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: open https://demo.korbsstudio.com/falix.gg/
-    - run: sleep 2;
+    - run: sleep 6;
     - run: screencapture ~/Desktop/screenshot.png
     - run: sleep 1;
-    - run: open https://demo.korbsstudio.com/falix.gg/error/adblock-detected.html
-    - run: sleep 4;
-    - run: screencapture ~/Desktop/adblock.png
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.3
       with:
