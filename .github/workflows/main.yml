@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - run: open https://demo.korbsstudio.com/falix.gg/
+    - run: open https://falixnodes.net/
     - run: sleep 6;
     - run: screencapture ~/Desktop/screenshot.png
     - run: sleep 1;
