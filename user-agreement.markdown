@@ -39,7 +39,7 @@ If you meetthe refund policy, you have rights to open the supportticketto cancel
 
 We do not take liability on any data loss if you cancel the service, make sure to backup your data before requesting the cancellation.
 
-### liability
+### Liability
 
 All services and websites are “AS IT IS”, We do not provide any liability for any losses, hacking, or any other liability which could be. The liability is in your hands.
 
