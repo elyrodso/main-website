@@ -58,6 +58,7 @@ div#mm li {
 }
 
 @media only screen and (max-width:550px) {
+    .frq {grid-template-columns: auto !important; grid-gap: 25px !important;}
     .posts {grid-template-columns: auto !important;}
     .card {
         width: 210px !important;
@@ -92,6 +93,7 @@ div#mm li {
 }
 
 @media only screen and (max-width:1080px){
+
     section#hero {background-size: 260% !important;}
     .if_desktop {display: none;}
     .sections {width: 100% !important;}
@@ -192,7 +194,9 @@ ui#dropdown_get-started {
 .sections {
     position: absolute;
     top: 600px;
-    width: 100%;
+    width: 1000px;
+    left: 50%;
+    transform: translate(-50%);
 }
 section {
     height: 300px;
@@ -396,4 +400,17 @@ div#dropdown_getStarted a {
 
 div#dropdown_getStarted a i {
     margin-right: 10px;
+}
+
+section#faq {
+    height: auto;
+    background: #2b293e;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.frq {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
 }
