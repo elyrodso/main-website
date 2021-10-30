@@ -58,7 +58,7 @@ div#mm li {
 }
 
 @media only screen and (max-width:550px) {
-    .frq {grid-template-columns: auto !important; grid-gap: 25px !important;}
+    .frq, .gwo-games {grid-template-columns: auto !important; grid-gap: 25px !important;}
     .posts {grid-template-columns: auto !important;}
     .card {
         width: 210px !important;
@@ -413,4 +413,31 @@ section#faq {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 100px;
+}
+
+
+#gwo {
+    background: #2b293e;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 25px;
+  }
+#gwo h1 {
+    text-align: center;
+}
+.gwo-games {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px 50px 50px 50px;
+}
+.gwo-games h2 {
+    margin: inherit;
+    padding: inherit;
+    font-size: 20px;
+}
+.gwo-game {margin-bottom: 20px;}
+.gwo-game i {margin-right: 7px;}
+.gwo-game li {
+    list-style: disclosure-closed;
+    margin-left: 20px;
 }
