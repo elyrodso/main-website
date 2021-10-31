@@ -85,6 +85,15 @@ div#mm li {
         border-radius: 7px;
         margin: 12px;
     }
+    .c-list {
+        margin-top: 20px !important;
+        display: grid !important;
+        text-align: left !important;
+        position: absolute !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+        width: 350px !important;
+    }
 }
 
 
@@ -440,4 +449,18 @@ section#faq {
 .gwo-game li {
     list-style: disclosure-closed;
     margin-left: 20px;
+}
+.c-list {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 80px;
+}
+.c-list a {
+  color: ;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+.c-list a:hover {
+  text-decoration: underline;
 }
