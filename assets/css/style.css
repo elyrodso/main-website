@@ -421,7 +421,7 @@ section#faq {
 .frq {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 100px;
+    grid-gap: 0px 100px;
 }
 
 
