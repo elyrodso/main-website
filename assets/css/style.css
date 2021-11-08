@@ -21,6 +21,7 @@ header {
 ::selection {background:inherit; color:inherit}
 *:focus {outline: none;}
 a {color: #2970cc;}
+button {font-family: 'POPPINS';}
 
 button#btn {
     color: white;
@@ -28,6 +29,7 @@ button#btn {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 /* Support for mobile */
@@ -135,7 +137,7 @@ div#mm li {
     width: 1000px;
 }
 .h_left {
-    font-family: Poppins;
+    font-family: 'POPPINS';
     position: absolute;
     top: -6px;
     cursor: default;
@@ -342,6 +344,7 @@ section#rtl h1 {direction: ltr;}
     color: white;
     border: none;
     padding: 10px 20px;
+    border-radius: 4px;
 }
 .posts button i {margin-left: 7px; cursor: pointer;}
 
