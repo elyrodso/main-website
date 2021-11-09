@@ -11,7 +11,7 @@ image: /assets/images/posts/thumbnails/no-247-support.webp
 # Why We No Longer Provide 24/7 Servers
 Previous FalixNodes customers may recall that we used to promote 24/7 hosting but dropped it a few months ago (September 2021). However, as we've grown in popularity for hosting "free" servers, it's become increasingly difficult for us to supply these free 24/7 servers to both old and new clients.
 
-We would be happy to continue providing 24/7 servers, however there would be dilemma, to provide actually real 24/7 (where your server will be kept even for whole year online), we would need WAY MUCH more finance than we currently have,
+We would be happy to continue providing 24/7 servers, however there would be dilemma, to provide actually real 24/7 (where your server will be kept even for whole year online), we would need WAY MUCH more finance than we currently have.
 
 ## <i class="fa-duotone fa-hand-holding-dollar"></i> The Cost of Hosting a 24/7 Service
 For example, let's take this scenario:
