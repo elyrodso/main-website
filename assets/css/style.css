@@ -18,7 +18,8 @@ header {
 }
 
 ::-webkit-scrollbar {width: 0px;}
-::selection {background:inherit; color:inherit}
+::selection {background:inherit; color: rgba(255, 255, 255, 0.25)
+}
 *:focus {outline: none;}
 a {color: #2970cc;}
 button {font-family: 'POPPINS';}
@@ -104,6 +105,10 @@ div#mm li {
 }
 
 @media only screen and (max-width:1080px){
+    .members {
+        grid-template-columns: inherit !important;
+    }
+    .member {width: inherit !important;}
 
     section#hero {background-size: 260% !important;}
     .if_desktop {display: none;}
@@ -465,4 +470,64 @@ section#faq {
 }
 .c-list a:hover {
   text-decoration: underline;
+}
+
+.member {
+    background: #283648;
+    border-radius: 20px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+}
+.top {
+    display: flex;
+}
+.top img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.top {
+}
+.top h1 {
+    top: ;
+    margin: 12px 0px 0px 0px;
+}
+.top h2 {
+    margin: 54px 0px 0px 110px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.bottom {
+    background: #1f2c3c;
+    margin: 20px -20px -40px -20px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+}
+.members {
+    display: grid;
+    grid-template-columns: 440px 440px;
+    grid-gap: 40px;
+    pointer-events: none;
+}
+#role {
+    opacity: 0.5;
+    font-size: 14px;
+}
+#discord {
+    opacity: 0.5;
+}
+#partner::before {
+    content: "Partner";
+    background: purple;
+    border-radius: 50px;
+    padding: 0px 10px;
+    position: absolute;
+    margin: 80px 0px 0px 14px;
+    font-weight: bold;
+    font-size: 12px;
 }
