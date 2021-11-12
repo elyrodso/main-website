@@ -1,6 +1,5 @@
 name: Update Website
 
-
 on:
   push:
     branches: [ main ]
