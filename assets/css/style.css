@@ -356,7 +356,7 @@ section#rtl h1 {direction: ltr;}
 .card {
     width: 240px;
     height: 210px;
-    background: #2b293e;
+    background: #1c2e42;
     border-radius: 7px;
     margin-right: 12px;
     cursor: pointer;
@@ -421,7 +421,7 @@ div#dropdown_getStarted a i {
 
 section#faq {
     height: auto;
-    background: #2b293e;
+    background: #1c2e42;
     padding: 50px;
     border-radius: 10px;
 }
@@ -434,7 +434,7 @@ section#faq {
 
 
 #gwo {
-    background: #2b293e;
+    background: #1c2e42;
     border-radius: 10px;
     padding-top: 20px;
     margin-top: 25px;
