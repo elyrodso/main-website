@@ -61,6 +61,8 @@ div#mm li {
 }
 
 @media only screen and (max-width:550px) {
+    .posts {grid-template-columns: auto !important;}
+
     .frq, .gwo-games {grid-template-columns: auto !important; grid-gap: 25px !important;}
     .posts {grid-template-columns: auto !important;}
     .card {
@@ -101,7 +103,7 @@ div#mm li {
 
 
 @media only screen and (min-width:1081px){
-    .if_mobile {display: none;}
+    .mobile_only {display: none;}
 }
 
 @media only screen and (max-width:1080px){
@@ -110,28 +112,37 @@ div#mm li {
     }
     .member {width: inherit !important;}
 
+    .se_content {
+        width: 400px !important;
+        grid-template-columns: 500px !important;
+    }
+    .mobile_only section {
+        height: 490px !important;
+    }
+    .se_img {
+        width: 400px !important;
+        margin-top: 0px !important;
+    }
+    section#rtl .se_text {
+        margin-left: 102px !important;
+    }
+    .se_content button {
+        margin-bottom: 20px !important;
+    }
+
     section#hero {background-size: 260% !important;}
-    .if_desktop {display: none;}
+    .desktop_only {display: none;}
     .sections {width: 100% !important;}
     .h_content, .f_content, .article {
         width: calc(100% - 50px) !important;
-    }
-    .se_content {
-        width: calc(100% - 50px) !important;
-        display: inherit !important;
-        text-align: center;
-        left: 50%;
-        transform: translate(-33%);
     }
     .doc {
         width: calc(100% - 50px);
         margin-left: 30px;
     }
-    .se_text p {width: inherit !important;}
-    .se_img {display: none !important;}
     .f_grid{grid-template-columns: 100% !important; grid-gap: 0px !important;}
     .posts{grid-template-columns: auto auto !important;}
-    section#blog {height: 600px !important;}
+    section#blog {height: 460px !important;}
 }
 
 /* Header */
