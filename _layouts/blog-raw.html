@@ -1,0 +1,9 @@
+<div class="posts">
+    {% for post in site.posts %}
+    <div onclick="window.location.href = '{{ post.url }}'" class="card">
+        <h1>{{ post.title  | truncatewords: 7 }}</h1>
+        <h2 id="date">{{ post.date }}</h2>
+        <img alt="{{ post.title }}" src="{{ post.image }}">
+    </div>
+    {% endfor %}
+</div>
