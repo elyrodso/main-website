@@ -12,7 +12,7 @@ Welcome to FalixNodes, and thank you for using our services ("FalixNodes" and "F
 At the time you register, you agree that you are 13 years of age or older, and that you agree to our [Privacy Policy](https://falixnodes.net/privacy-policy/), [Refund Policy](https://falixnodes.net/refund-policy/), [Cookie Policy](https://falixnodes.net/cookie-policy/), and of course, with our User Agreement. If you, as a user, do not accept our terms, do not register on our website, if you do not accept our terms after registration, you have the right to delete all your collected data from our services.
  
 We have all rights to suspend, terminate, delete, and reset your account if you do not follow our User Agreement, including our Privacy Policy, Cookie Policy, and Refund Policy, such agreement includes, but is not limited to: your data, your servers and services you paid for after due refund period.
-We also have all the rights to suspend, terminate, delete, and reset your account under any circumstances we consider necessary. According to our Refund Policy, we will return any paid amount by you within our active refund period, spent on our paid services.
+We also have all right to suspend, terminate, delete, and reset your account under any circumstances we consider necessary. According to our Refund Policy, we will return any paid amount by you within our active refund period, spent on our paid services.
 
 ### Laws reinforcement
 
