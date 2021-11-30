@@ -39,7 +39,7 @@ After creating your services or servers on our systems, you agree that:
 *   Any action done by a subuser on your services and servers will not be handled by our support team.
 *   Corruption and lack of backups will not be handled by our support team.
 *   Any type of cryptocurrency mining, hacking, bruteforce, overloading of nodes or breaking EULA's of software available on our services are absolutely not allowed.
-*   Any kind of selling of your services and servers is totally not allowed. This category do not take into enforce if you use reseller packages (e.g. Reseller Website Hosting).
+*   Any kind of selling/reselling of your services or servers is strictly forbidden. This does not include any sort of reseller packages (e.g. Reselling Website Hosting).
 
 ### Cancelling the service
 
