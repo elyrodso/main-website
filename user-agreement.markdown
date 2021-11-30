@@ -28,8 +28,8 @@ Upon creating your account, also by using any means of authentication available 
 *   We may delete, suspend, terminate or reset your account if we see the action necessary.
 *   Your account must have valid details including your e-mail address, address, name, or methods of payment.
 *   You must be 13 years or older to create an account on our services.
-*   For payments on our paid services, you must be 18 years or older to complete your payment, or have permission from your legal parents.
-*   All actions on your account will be given as of the user creator, if your account is hacked or stolen, contact us with a maximum of 7 days to resolve your account issues.
+*   For payments on our paid services, you must be 13 years or older to complete your payment, or have permission from your legal parents.
+*   All actions on your account will be given as of the user creator, if your account is hacked or stolen, you need contact us to resolve your account issues.
 *   Any selling of access to your account is strictly prohibited. This also includes but is not limited to: our own currency, resources and plans.
 
 
@@ -39,23 +39,23 @@ After creating your services or servers on our systems, you agree that:
 *   Any action done by a subuser on your services and servers will not be handled by our support team.
 *   Corruption and lack of backups will not be handled by our support team.
 *   Any type of cryptocurrency mining, hacking, bruteforce, overloading of nodes or breaking EULA's of software available on our services are absolutely not allowed.
-*   Any kind of selling/reselling of your services or servers is strictly forbidden. This does not include any sort of reseller packages (e.g. Reselling Website Hosting).
+*   Any kind of selling/reselling of your services or servers is strictly forbidden. This situation can be discussed by you using our support team.
 
 ### Cancelling the service
 
-Upon cancellation of your account by you, all your important data will be deleted in accordance with our Privacy Policy. If your account has any kind of payment to be approved, it will be cancelled within two days. If you have made a purchase within 24 hours before cancelling your account, you will be refunded according to our Refund Policy after creating a ticket requesting the refund.
+Upon cancellation of your account by you, all your important data will be deleted in accordance with our Privacy Policy. If your account has any kind of payment to be approved, it will be refunded after contacting the support team. We give you a refund using the amount of days of your subscription compared to the unused days, you need request the refund through the support team without using other unofficial methods.
 
 We will not have any means of return for the loss of your servers and services registered to your now deleted account. You must agree that any next account you create will be fully reset to the default.
 
 ### Payment Gateways
 
-You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, bank accounts). You should use our Refund Policy and contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the chargeback fee + Service paid amount + 10% situation fee.
+You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, bank accounts). You should use our Refund Policy and contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the amount paid + 5 GBP fee.
 
 ### Inactivity System
 
-ALL your servers and services will be DELETED after a period of inactivity of you of 13 DAYS. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
+All your servers and services will be SUSPENSED after a period inactivity of 7 DAYS from you. After a period of 14 DAYS being suspended, your server will be deleted. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
 
-### Support for FalixNodes/Falix services
+### Support for FalixNodes services
 
 You agree that any support you receive from other users who are not our official support team is entirely subjective and does not represent our intentions, support, choices, changes or updates. You agree that also our official support team will not prioritize your support request, excluding only those that we consider of priority resolution.
 
@@ -65,10 +65,9 @@ We guarantee that personal information submitted to facilitate your support will
 
 Any downtime and maintenance periods must be publicly announced by us using either our Client panel or Discord server. Any kind of slowness, overloads, connection problems of our services are not required to be publicly published on our announcement channels or websites. Any refund requests that have passed the validity period available in the Refund Policy of our services malfunction or in maintenance will be denied.
 
-<!---Reason to be deleted: NOT TO BE A FAQ.
->### Unmetered Services
-> 
->We provide unmetered services to our customers however it relates only to software limitation. This means you will not be metered by our software limitation however you can >reach to the hardware cap. If you have more questions about unmetered services, make the ticket on the discord group.-->
+### Unmeasured Services
+ 
+We provide unmetered services to you by software limitations. Accordingly, we will limit the maximum resources available to you. This limitation is circumvented only with paid versions of our services for the different types of resources we provide, i.e.: Databases, Ports, Disk space, or Backups.
 
 ### Copyright/Trademark/Original Notice
 
