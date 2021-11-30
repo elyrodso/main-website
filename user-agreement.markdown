@@ -7,76 +7,73 @@ permalink: /user-agreement/
 
 ### Legal binding on User Agreement
 
-When You agree to our User Agreement, you are agreeing to be as first part of User Agreement which means you mustfollow your part of User Agreement and We are agreeing to be second part of User Agreement which means we also mustfollow our port of User Agreement.
+Welcome to FalixNodes, and thank you for using our services ("FalixNodes" and "Falix"). By registering on our website you agree to our entire User Agreement listed below, which we, as a company, will strictly enforce, and you, as a user, will respect our terms. We highly recommend that you take the time to check everything out.
 
-When You are registering at our website, you are agreeing about that you are 13 years old or above, you consent privacy policy and agree to follow our User Agreementto avoid termination. Once you bind to our User Agreement, you must follow ittillthe account termination, deletion or writing notice to us about you no longer wantto have an accountin FalixNodes.
+At the time you register, you agree that you are 13 years of age or older, and that you agree to our [Privacy Policy](https://falixnodes.net/privacy-policy/), [Refund Policy](https://falixnodes.net/refund-policy/), [Cookie Policy](https://falixnodes.net/cookie-policy/), and of course, with our User Agreement. If you, as a user, do not accept our terms, do not register on our website, if you do not accept our terms after registration, you have the right to delete all your collected data from our services.
+ 
+We have all rights to suspend, terminate, delete, and reset your account if you do not follow our User Agreement, including our Privacy Policy, Cookie Policy, and Refund Policy, such agreement includes, but is not limited to: your data, your servers and services you paid for after due refund period.
+We also have the all rights to suspend, terminate, delete, and reset your account under any circumstances we consider necessary. According to our Refund Policy, we will return any paid amount by you within our active refund period, spent on our paid services.
 
-We have rights to suspend,terminate and do other actions to your account and services if You do not follow our User Agreement(Including Privacy Policy, Cookie Policy and Refund Policy).
+### Laws reinforcement
 
-We have the rightto cancel your User Agreement consent(by deleting account and services) at any time if we are believing we should do that. If it happens, we will refund the paid amount ofthe active services which you are currently using.
+If any law in your country does not agree with the distribution of our services, you will not have access to our services. In case any law reinforces the need for the user to have a different age than the one required globally by us, this law will be the one obeyed by our services in your country. If you do not respect or violate your country's system for our services, we have the right to take appropriate action for violation of the User Agreement.
 
-### Laws
+### Policy and Agreement changes or updates
 
-When You bind to our User Agreement, You will follow your Country laws and our business country laws to comply with the best experience with our (Latvia) laws and yours laws. If you provide any law which does not meet our User Agreement, we will forcefully change the User Agreement.
+We have full right to update our User Agreement, Privacy Policy, Cookie Policy, and Refund Policy at any time. We will alert our users of any such changes by notifications within our services, or in our support Discord server. Any changes made to our policies will take effect on our services within 24 hours of being updated.
 
-### Agreement change
+### Falix/FalixNodes Account management
 
-We have rights to change the User Agreement and You mustfollow the new copy of User Agreement after 1 day ofthe publish. We will notify you about the new copy of User Agreementin our discord group broadcast channel.
+Upon creating your account, also by using any means of authentication available through our services, you agree that:
+*   We may delete, suspend, terminate or reset your account if we see the action necessary.
+*   Your account must have valid details including your e-mail address, address, name, or methods of payment.
+*   You must be 13 years or older to create an account on our services.
+*   For payments on our paid services, you must be 18 years or older to complete your payment, or have permission from your legal parents.
+*   All actions on your account will be given as of the user creator, if your account is hacked or stolen, contact us with a maximum of 7 days to resolve your account issues.
+*   Any selling of access to your account is strictly prohibited. This also includes but is not limited to: our own currency, resources and plans.
 
-### Falix Account
 
-*   We have full rights to suspend, terminate or do any other action to your accountif we count that is required to do.
-*   Your account must have valid details by a valid person including email address, address, and other information.
-*   To create a Falix account on our website, you must be 13 years of age or above.
-*   To purchase a Falix services, you must be 18 years of age or above. Howerver, you may purchase with your parents permission, please consult with your parents before purchasing.
-*   You take the liability on Falix account. You must understand you will take liability if anyone else made an action on your account or any other action which was made by another person - not you. If you detect that someone hacked your account or did any kind of action in your account, you must contact us within 2 days for future solution.
+### Servers and Services made by you
+
+After creating your services or servers on our systems, you agree that:
+*   Any action done by a subuser on your services and servers will not be handled by our support team.
+*   Corruption and lack of backups will not be handled by our support team.
+*   Any type of cryptocurrency mining, hacking, bruteforce, overloading of nodes or breaking EULA's of software available on our services are absolutely not allowed.
+*   Any kind of selling of your services and servers is totally not allowed. This category do not take into enforce if you use reseller packages (e.g. Reseller Website Hosting).
 
 ### Cancelling the service
 
-When you cancel the service, you agree that You no longer can claim the refund or continue the service. If you select about You wantto cancelthe service as soon as possible, Your service will be terminated within 1-2 workdays. If you select something You wantto cancel on the 30th day of your service month,then it will be terminated on the 30th day of your service month.
+Upon cancellation of your account by you, all your important data will be deleted in accordance with our Privacy Policy. If your account has any kind of payment to be approved, it will be cancelled within two days. If you have made a purchase within 24 hours before cancelling your account, you will be refunded according to our Refund Policy after creating a ticket requesting the refund.
 
-If you meetthe refund policy, you have rights to open the supportticketto cancel service and get a refund however you will no longer be able to purchase our services.
-
-We do not take liability on any data loss if you cancel the service, make sure to backup your data before requesting the cancellation.
-
-### Liability
-
-All services and websites are “AS IT IS”, We do not provide any liability for any losses, hacking, or any other liability which could be. The liability is in your hands.
-
-### Forbidden Actions
-
-You are not allowed to do forbidden actions such as cryptocurrency mining, hacking, brute force, overloading, or any other kind of action which can harm customers or FalixNodes website/services.
+We will not have any means of return for the loss of your servers and services registered to your now deleted account. You must agree that any next account you create will be fully reset to the default.
 
 ### Payment Gateways
 
-You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, other) since the chargeback fee will be too high to manage and itis possible to solve the issue via our Refund Policy by ourself (You as Customer and Us as Service Provider). You also cannot chargeback or ask for refund in our Payment Gateways if you’ve received promised service. Any chargeback or Payment Gateways refund will terminate your FalixNodes account and your services, you will no longer be able to recover your account or services unless You’ll pay us the chargeback fee + Service paid amount + 10% Fee due to Chargeback situation.
+You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, bank accounts). You should use our Refund Policy and contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the chargeback fee + Service paid amount + 10% situation fee.
 
 ### Inactivity System
 
-You are required to login to our client panel (client.falixnodes.net) at least ONCE within 13 DAYS. If you will not login within that timeline, we will delete your current servers due to inactivity reason and you will no longer be able to recover it.
+ALL your servers and services will be DELETED after a period of inactivity of you of 13 DAYS. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
 
-This Inactivity system applies to everyone which is in game panel and client panel (client.falixnodes.net & panel.falixnodes.net)
+### Support for FalixNodes/Falix services
 
-### Reselling
+You agree that any support you receive from other users who are not our official support team is entirely subjective and does not represent our intentions, support, choices, changes or updates. You agree that also our official support team will not prioritize your support request, excluding only those that we consider of priority resolution.
 
-You are not allowed to resell our services or claim our services as yours. If you will do that, you will be terminated and you will no longer be able to use or receive services from us. This category do not take into enforce if you use reseller package(-s) (e.g. Reseller Website Hosting)
-
-### Support from FalixNodes
-
-You consent about whether we will save the messages and attachments which you sent to us to improve our support agent experience and your experience.
+We guarantee that personal information submitted to facilitate your support will not be made publicly available in any way, and that our team may request this information at any time. You as a user may terminate your support request at any time after it is created without any objections from us.
 
 ### Downtime & Maintenance
 
-If we will do any Maintenance, we will make sure to postthe scheduled maintenance times at our broadcast (discord group), in that time you agree about we have rights to make the maintenance till 24 hours and we have no rightto refund you if the refund reason was maintenance.
+Any downtime and maintenance periods must be publicly announced by us using either our Client panel or Discord server. Any kind of slowness, overloads, connection problems of our services are not required to be publicly published on our announcement channels or websites. Any refund requests that have passed the validity period available in the Refund Policy of our services malfunction or in maintenance will be denied.
 
-### Unmetered Services
-
-We provide unmetered services to our customers however it relates only to software limitation. This means you will not be metered by our software limitation however you can reach to the hardware cap. If you have more questions about unmetered services, make the ticket on the discord group.
+<!---Reason to be deleted: NOT TO BE A FAQ.
+>### Unmetered Services
+> 
+>We provide unmetered services to our customers however it relates only to software limitation. This means you will not be metered by our software limitation however you can >reach to the hardware cap. If you have more questions about unmetered services, make the ticket on the discord group.-->
 
 ### Copyright/Trademark/Original Notice
 
-We are not affiliated with Mojang AB, Discord Inc, or any company which owns the game or product which we provide services for. Please use our support, not their's.
+We are not affiliated with Minecraft, Mojang AB, Discord Inc or any company which owns their services or products which we provide hosting for. All brands and trademarks belong to their respective owners. Any support request about these services should be sent directly to our team, excluding only issues that we consider invalid and that are not related to our service in any way.
 
-Our official website is falixnodes.net and falix.gg. Any other website with similar or same design, infrastructure or system are not affiliated by us! Be aware of scammers which claim to be falixnodes or use similar/same infrastructure as us. If you found one, please report it to us immediately so we could take the legal action.
+To host a Minecraft server, you must follow [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) at the time of creation.
 
-If you got scammed by companies which pretend to be FalixNodes, we cannot refund you or do any money back to you since we are not the one which got money, however we could be able to give you additional services to our infrastructure, please make the ticket if it happened to you. It must include the payment receipt to the scam company.
+Our only affiliated names are FalixNodes and Falix. Any websites using our code, templates, panels and account systems has no relation with our services and should be reported directly to our support team. If you have any problems with websites listed as exemplified, we will not be responsible for loss of resources, experimenting of bugs, lack of support, and refund from these sources.
