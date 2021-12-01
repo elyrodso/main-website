@@ -4,6 +4,3 @@ baseurl: ""
 url: ""
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from
-whitelist:
-  - jekyll-redirect-from
