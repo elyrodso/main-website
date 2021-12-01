@@ -1,297 +1,237 @@
-<head>
-    <meta name="description" content="Free Minecraft hosting without any limitations, forever. Get full access to your Minecraft server with our many features such as custom Jars, unlimited slots, and unlimited plugins.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:image" content="https://i.imgur.com/JM1PpWt.webp" />
-    <meta property="og:url" content="https://falixnodes.net/" />
-    <meta property="og:site_name" content="FalixNodes" />
-</head>
-{% include header.html %}
-<section id="hero">
-    <div class="sh_">
-        <h1>Free Server Deployment</h1>
-        <p>With Falix's, you can enjoy playing with your buddies and building your own server without worrying about the cost. It's free!</p>
-    </div>
-    <script>
-        const event11 = window.addEventListener('scroll', function(e) {
-            if(this.scrollY < 530) {
-                document.getElementById('h_').style.background = 'transparent';
-                document.getElementById('h_').style.backdropFilter = 'unset';
-            } else {
-                document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
-                document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
-            }
-        });
-    </script>
-</section>
-<div class="sections">
-    <section id="blog">
-        <div class="posts">
-            {% for post in site.posts limit: 4 %}
-            <div onclick="location.href = '{{ post.url }}'" class="card">
-                <h1>{{ post.title }}</h1>
-                <h2 id="date">{{ post.date }}</h2>
-                <img alt="{{ post.title }}" src="{{ post.image }}">
-            </div>
-            {% endfor %}
-            <button onclick="location.href = '{{site.baseurl}}/blog/'">View More <i class="fa-duotone fa-arrow-right"></i></button>
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <img id="heroIMG" src="">
+        <div class="content">
+            <section id="hero">
+                <div class="content-hero">
+                    <h1>Free Server Deployment</h1>
+                    <p>With Falix's, you can enjoy playing with your buddies and building your own server without worrying about the cost. It's free!</p>
+                </div>
+                <script type="text/javascript">
+                    var images = [
+                        // Screenshots were shotted by Korbs Studio
+                        // Using Terra plugin on a 1.17.1 Java Server
+                        // Using Complementary v4.2.2 shaders with Vanilla RTX-ish settings enabled 
+                        "{{site.baseurl}}/assets/images/hero/1.png",
+                        "{{site.baseurl}}/assets/images/hero/2.png",
+                        "{{site.baseurl}}/assets/images/hero/3.png",
+                        "{{site.baseurl}}/assets/images/hero/3.png",
+                        "{{site.baseurl}}/assets/images/hero/4.png",
+                        "{{site.baseurl}}/assets/images/hero/5.png",
+                        "{{site.baseurl}}/assets/images/hero/6.png",
+                        "{{site.baseurl}}/assets/images/hero/7.png",
+                        "{{site.baseurl}}/assets/images/hero/8.png"
+                    ];
+                    function randImg() {
+                        var size = images.length
+                        var choose = Math.floor(size * Math.random())
+                        document.getElementById('heroIMG').src = images[choose];
+                    }
+                    randImg();
+                </script>
+            </section>
+            {% include header.html %}
+            <section id="news">
+                <h1>Latest News</h1>
+                <div class="posts">
+                    {% for post in site.posts limit: 4 %}
+                    <div onclick="location.href = '{{ post.url }}'" class="card">
+                        <img alt="{{ post.title }}" src="{{ post.image }}">
+                        <h1>{{ post.title }}</h1>
+                    </div>
+                    {% endfor %}
+                    <!-- <button onclick="location.href = '{{site.baseurl}}/blog/'">View More <i class="fa-duotone fa-arrow-right"></i></button> -->
+                </div>
+            </section>
+            <section>
+                <div class="se_content">
+                    <div class="se_img">
+                        <video style="border-radius: 7px;width: 100%;height: 100%;object-fit: cover;" id="players_video" src="https://cdn.korbsstudio.com/falix/players.webm" muted autoplay playsinline loop></video>
+                    </div>
+                    <div class="se_text">
+                        <h1><i class="fa-duotone fa-user-group-crown"></i> Play with your Buddies</h1>
+                        <p>Play with your buds on your own own Minecraft server, either cooperatively or competitively. Along with playing Bombsquard, Minetest, Impostor, Unturned, CryoFall, and other games together</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="se_content">
+                    <div class="se_img">
+                        <img alt="Figma Artwork created by Korbs Studio, trying to represent Discord" style="object-position: right;" src="./assets/images/disc353.png">
+                    </div>
+                    <div class="se_text">
+                        <h1><i class="fa-duotone fa-handshake-angle"></i> Simple to Use</h1>
+                        <p>We are user-friendly to all of our users; we offer a lot of tutorials for newcomers who are looking to set up their own server, and we also present a user-friendly panel to all of our clients. By the way, we also have community-powered support as well as our own support team</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="se_content">
+                    <div class="se_img">
+                        <img style="object-position: center;" alt="Server photo from AMD" src="https://www.amd.com/system/files/2021-02/720217-blue-server-bg-1920x600.jpg">
+                    </div>
+                    <div class="se_text">
+                        <h1><i class="fa-duotone fa-server"></i> Powered by AMD Epyc/Ryzen</h1>
+                        <p>Some hosts are still using old and slow Intel Xeon and it's DDR3, it's just ew. We are not being cheap in our expenses, we try our best to keep provide as up to date and excellent hardware as it can be</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="se_content">
+                    <div class="se_img">
+                        <img alt="Help Center website" style="object-fit: contain;" src="./assets/images/FFacnHC52.webp">
+                    </div>
+                    <div class="se_text">
+                        <h1><i class="fa-duotone fa-comments-question-check"></i> See Guides and more</h1>
+                        <p>Do you seek guidance for something? Something went wrong? Learn more about it in our help center. You are also welcome to contribute your knowledge and experience to our Help Center, which is open sourced on GitHub</p>
+                        <button id="btn" onclick="location.href = 'https://help.falixnodes.net/'"><i class="fa-duotone fa-comments-question-check"></i> Visit Help Center</button>
+                        <button id="btn" onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/'"><i class="fa-brands fa-github"></i> Contribute</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="se_content">
+                    <div class="se_img">
+                        <img alt="FalixNodes Software" style="object-position: center;" src="./assets/images/ZpB4kQJ.webp">
+                    </div>
+                    <div class="se_text">
+                        <h1><i class="fa-duotone fa-laptop-mobile"></i> Try our Desktop Software</h1>
+                        <p>Falix Software on your desktop makes it easy to access all of Falix from the a centralized place. We also have a new mobile app coming soon for Android and iOS</p>
+                        <button id="btn" onclick="location.href = 'https://software.falixnodes.net/'"><i class="fa-duotone fa-desktop"></i> Check it Out</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div id="gwo">
+                    <h1>Supported Games and Services</h1>
+                    <div class="gwo-games">
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-cube"></i> Minecraft Java</h2>
+                            <ui>
+                                <li>Custom Jar</li>
+                                <li>PaperMC</li>
+                                <li>Purpur</li>
+                                <li>Fabric</li>
+                                <li>Vanilla</li>
+                                <li>Vanilla Snapshot</li>
+                                <li>Tuinity</li>
+                                <li>Forge</li>
+                                <li>Cuberite</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-cube"></i> Minecraft Bedrock</h2>
+                            <ui>
+                                <li>Cloudburst</li>
+                                <li>PMMP</li>
+                                <li>Altay</li>
+                                <li>Vanilla</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-diagram-project"></i> Proxy</h2>
+                            <ui>
+                                <li>Waterfall</li>
+                                <li>Livypad</li>
+                                <li>Velocity</li>
+                                <li>Waterdog</li>
+                                <li>HexaCord</li>
+                                <li>Travertine</li>
+                                <li>BungeeCord</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-gun"></i> Grand Theft Auto</h2>
+                            <ui>
+                                <li>SA:MP</li>
+                                <li>MTA:SA</li>
+                                <li>Rage.MP</li>
+                                <li>Grand Theft Auto Connected</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-trees"></i> Terriaria</h2>
+                            <ui>
+                                <li>tModLoader</li>
+                                <li>tShock</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-microphone-lines"></i> Voice</h2>
+                            <ui>
+                                <li>TeamSpeak 3</li>
+                                <li>TS3 Manager</li>
+                                <li>Lavalink</li>
+                                <li>TeaSpeak</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-database"></i> Database</h2>
+                            <ui>
+                                <li>Mongo</li>
+                                <li>Redis</li>
+                                <li>Maria</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-brands fa-discord"></i> Discord</h2>
+                            <ui>
+                                <li>JS</li>
+                                <li>Python</li>
+                                <li>Lua</li>
+                                <li>Go</li>
+                                <li>TypeScript</li>
+                                <li>CoffeeScript</li>
+                                <li>SinusBot</li>
+                            </ui>
+                        </div>
+                        <div class="gwo-game">
+                            <h2><i class="fa-duotone fa-circle"></i> Others</h2>
+                            <ui>
+                                <li>BombsSquad</li>
+                                <li>Mindustry</li>
+                                <li>Minetest</li>
+                                <li>Unturned</li>
+                                <li>Imposter</li>
+                                <li>Minio S3</li>
+                                <li>CryoFall</li>
+                            </ui>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="faq">
+                <h1 style="margin: 0px 0px 20px 0px;">FAQ</h1>
+                <div class="frq">
+                    {% include faq.html %}
+                </div>
+            </section>
+            <section>
+                {% include footer.html %}
+            </section>
         </div>
-    </section>
-    <div class="desktop_only">
-        <section id="rtl" style="direction: rtl; text-align: left;">
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-user-group-crown"></i> Play with your Buddies</h1>
-                <p>Play with your buds on your own own Minecraft server, either cooperatively or competitively. Along with playing Bombsquard, Minetest, Impostor, Unturned, CryoFall, and other games together</p>
-                </div>
-                <div class="se_img">
-                    <video style="border-radius: 7px;width: 100%;height: 100%;object-fit: cover;" id="players_video" src="https://media.korbsstudio.com/falix/players.mp4" muted autoplay playsinline loop></video>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-handshake-angle"></i> Simple to Use</h1>
-                <p>We are user-friendly to all of our users; we offer a lot of tutorials for newcomers who are looking to set up their own server, and we also present a user-friendly panel to all of our clients. By the way, we also have community-powered support as well as our own support team</p>
-                </div>
-                <div class="se_img">
-                    <img alt="Figma Artwork created by Korbs Studio, trying to represent Discord" style="object-position: center;" src="./assets/images/027858.webp">
-                </div>
-            </div>
-        </section>
-        <section id="rtl" style="direction: rtl; text-align: left;">
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-microchip"></i> Powered by AMD Epyc/Ryzen</h1>
-                <p>Some hosts are still using old and slow Intel Xeon and it's DDR3, it's just ew. We are not being cheap in our expenses, we try our best to keep provide as up to date and excellent hardware as it can be</p>
-                </div>
-                <div class="se_img">
-                    <img style="object-position: center;" alt="Server photo from AMD" src="https://www.amd.com/system/files/2021-02/720217-blue-server-bg-1920x600.jpg">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-comments-question-check"></i> See Guides and more</h1>
-                <p>Do you seek guidance for something? Something went wrong? Learn more about it in our help center. You are also welcome to contribute your knowledge and experience to our Help Center, which is open sourced on GitHub</p>
-                <button id="btn" onclick="location.href = 'https://help.falixnodes.net/'"><i class="fa-duotone fa-comments-question-check"></i> Visit Help Center</button>
-                <button id="btn" onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/'"><i class="fa-brands fa-github"></i> Contribute My Knowledge</button>
-                </div>
-                <div class="se_img">
-                    <img alt="Help Center website" src="./assets/images/FFacnHC52.webp">
-                </div>
-            </div>
-        </section>
-        <section id="rtl" style="direction: rtl; text-align: left;">
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-sidebar"></i> Try our Desktop Software</h1>
-                <p>Falix Software on your desktop makes it easy to access all of Falix from the a centralized place </p>
-                <button id="btn" onclick="location.href = 'https://software.falixnodes.net/'"><i class="fa-duotone fa-arrow-down-to-line"></i> Download Now</button>
-                </div>
-                <div class="se_img">
-                    <img alt="FalixNodes Software" style="object-position: center;" src="./assets/images/ZpB4kQJ.webp">
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="mobile_only">
-        <section id="rtl" style="direction: rtl; text-align: left;">
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-user-group-crown"></i> Play with your Buddies</h1>
-                <p>Play with your buds on your own own Minecraft server, either cooperatively or competitively. Along with playing Bombsquard, Minetest, Impostor, Unturned, CryoFall, and other games together</p>
-                </div>
-                <div class="se_img">
-                    <video style="border-radius: 7px;width: 100%;height: 100%;object-fit: cover;" id="players_video" src="https://media.korbsstudio.com/falix/players.mp4" muted autoplay playsinline loop></video>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-handshake-angle"></i> Simple to Use</h1>
-                <p>We are user-friendly to all of our users; we offer a lot of tutorials for newcomers who are looking to set up their own server, and we also present a user-friendly panel to all of our clients. By the way, we also have community-powered support as well as our own support team</p>
-                </div>
-                <div class="se_img">
-                    <img alt="Figma Artwork created by Korbs Studio, trying to represent Discord" style="object-position: center;" src="./assets/images/027858.webp">
-                </div>
-            </div>
-        </section>
-        <section id="rtl" style="direction: rtl; text-align: left;">
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-microchip"></i> Powered by AMD Epyc/Ryzen</h1>
-                <p>Some hosts are still using old and slow Intel Xeon and it's DDR3, it's just ew. We are not being cheap in our expenses, we try our best to keep provide as up to date and excellent hardware as it can be</p>
-                </div>
-                <div class="se_img">
-                    <img style="object-position: center;" alt="Server photo from AMD" src="https://www.amd.com/system/files/2021-02/720217-blue-server-bg-1920x600.jpg">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-comments-question-check"></i> See Guides and more</h1>
-                <p>Do you seek guidance for something? Something went wrong? Learn more about it in our help center. You are also welcome to contribute your knowledge and experience to our Help Center, which is open sourced on GitHub</p>
-                <button id="btn" onclick="location.href = 'https://help.falixnodes.net/'"><i class="fa-duotone fa-comments-question-check"></i> Visit Help Center</button>
-                <button id="btn" onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/'"><i class="fa-brands fa-github"></i> Contribute My Knowledge</button>
-                </div>
-                <div class="se_img">
-                    <img alt="Help Center website" src="./assets/images/FFacnHC52.webp">
-                </div>
-            </div>
-        </section>
-        <section id="rtl" style="direction: rtl; text-align: left;">
-            <div class="se_content">
-                <div class="se_text">
-                <h1><i class="fa-duotone fa-sidebar"></i> Try our Desktop Software</h1>
-                <p>Falix Software on your desktop makes it easy to access all of Falix from the a centralized place </p>
-                <button id="btn" onclick="location.href = 'https://software.falixnodes.net/'"><i class="fa-duotone fa-arrow-down-to-line"></i> Download Now</button>
-                </div>
-                <div class="se_img">
-                    <img alt="FalixNodes Software" style="object-position: center;" src="./assets/images/ZpB4kQJ.webp">
-                </div>
-            </div>
-        </section>
-    </div>
-    <section style="height: inherit; margin-bottom: 20px;">
-        <div id="gwo">
-            <h1>Supported Games and Services</h1>
-            <div class="gwo-games">
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-cube"></i> Minecraft Java</h2>
-                    <ui>
-                        <li>Custom Jar</li>
-                        <li>PaperMC</li>
-                        <li>Purpur</li>
-                        <li>Fabric</li>
-                        <li>Vanilla</li>
-                        <li>Vanilla Snapshot</li>
-                        <li>Tuinity</li>
-                        <li>Forge</li>
-                        <li>Cuberite</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-cube"></i> Minecraft Bedrock</h2>
-                    <ui>
-                        <li>Cloudburst</li>
-                        <li>PMMP</li>
-                        <li>Altay</li>
-                        <li>Vanilla</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-diagram-project"></i> Proxy</h2>
-                    <ui>
-                        <li>Waterfall</li>
-                        <li>Livypad</li>
-                        <li>Velocity</li>
-                        <li>Waterdog</li>
-                        <li>HexaCord</li>
-                        <li>Travertine</li>
-                        <li>BungeeCord</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-gun"></i> Grand Theft Auto</h2>
-                    <ui>
-                        <li>SA:MP</li>
-                        <li>MTA:SA</li>
-                        <li>Rage.MP</li>
-                        <li>Grand Theft Auto Connected</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-trees"></i> Terriaria</h2>
-                    <ui>
-                        <li>tModLoader</li>
-                        <li>tShock</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-microphone-lines"></i> Voice</h2>
-                    <ui>
-                        <li>TeamSpeak 3</li>
-                        <li>TS3 Manager</li>
-                        <li>Lavalink</li>
-                        <li>TeaSpeak</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-database"></i> Database</h2>
-                    <ui>
-                        <li>Mongo</li>
-                        <li>Redis</li>
-                        <li>Maria</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-brands fa-discord"></i> Discord</h2>
-                    <ui>
-                        <li>JS</li>
-                        <li>Python</li>
-                        <li>Lua</li>
-                        <li>Go</li>
-                        <li>TypeScript</li>
-                        <li>CoffeeScript</li>
-                        <li>SinusBot</li>
-                    </ui>
-                </div>
-                <div class="gwo-game">
-                    <h2><i class="fa-duotone fa-circle"></i> Others</h2>
-                    <ui>
-                        <li>BombsSquad</li>
-                        <li>Mindustry</li>
-                        <li>Minetest</li>
-                        <li>Unturned</li>
-                        <li>Imposter</li>
-                        <li>Minio S3</li>
-                        <li>CryoFall</li>
-                    </ui>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--    <section>-->
-<!--        <h1 style="text-align: center; font-size: 26px; margin-top: 80px;">Supported Continents</h1>-->
-<!--        <div class="c-list">-->
-<!--            <a href="https://en.wikipedia.org/wiki/North_America#Countries,_territories,_and_dependencies" target="_blank"><i class="fa-duotone fa-earth-americas"></i> North America</a>-->
-<!--            <a href="https://europa.eu/european-union/about-eu/countries_en" target="_blank"><i class="fa-duotone fa-earth-europa"></i> Europe</a>-->
-<!--            <a href="https://en.wikipedia.org/wiki/Oceania#Demographics" target="_blank"><i class="fa-duotone fa-earth-asia"></i> Oceania</a>-->
-<!--        </div>-->
-<!--    </section>-->
-    <section id="faq">
-        <h1 style="margin: 0px 0px 20px 0px;"><i class="fa-duotone fa-comments-question"></i> FAQ</h1>
-        <div class="frq">
-            {% include faq.html %}
-        </div>
-    </section>
-    <style>section#footer {margin-top: 80px}</style>
-{% include footer.html %}
-
+    </body>
+    <script>includeHTML()</script>
+</html>
+<style>#individual-link-mainwebsite{display: none;}</style>
 <style>
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+header::after {
+    position: absolute;
+    content: "";
+    width: 1000%;
+    height: 70px;
+    background: var(--accent);
+    margin-left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
 }
-
-@keyframes heroZoomOut {
-    from {
-        background-size: 125%;
-    }
-    to {
-        background-size: 100%;
-    }
-}
-
-body {
-    animation: 0.7s fadeInUp ease;
+header {
+    position: sticky;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: -40px;
+    width: calc(100% - -50px) !important;
 }
 </style>

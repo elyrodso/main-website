@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-    
-    <meta name="theme-color" content="#2970cc">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/png" sizes="256x256" href="{{site.baseurl}}/assets/images/icons/favicon/256x256.webp">
-    <link rel="icon" type="image/png" sizes="64x64" href="{{site.baseurl}}/assets/images/icons/favicon/64x64.webp">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/images/icons/favicon/32x32.webp">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/images/icons/favicon/16x16.webp">
-
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fonts.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-
-    <script src="{{site.baseurl}}/assets/js/dropdown-menus/get-started.js"></script>
-    <script src="https://kit.fontawesome.com/fc093d7fbf.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> 
-    <script src="https://scripts.korbsstudio.com/ie-detect/dis-allow.js"></script>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PLPMR3K');</script>
-    <script>GetIEVersion()</script>
-</head>
-<header id="h_">
-    <div class="h_content">
-        <div class="h_left">
-            <h1 style="cursor: pointer;" onclick="location.href = '{{ base.url | prepend: site.url }}/'">Falix</h1>
+<header>
+    <div class="contentHeader">
+        <div class="leftHeader">
+            <h1 onclick="location.href = '/'">Falix</h1>
+            <div id="menuHeader">
+                <!-- <a class="desktop" href="/about/">About</a> -->
+                <!-- <a class="desktop" href="#">Plans</a> -->
+                <a class="desktop" href="https://desktop.falixnodes.net/" target="_blank">Desktop App</a>
+                <a class="desktop" id="individual-link-helpcenter" href="https://help.falixnodes.net/" target="_blank">Help Center</a>
+                <a class="desktop" id="individual-link-mainwebsite" href="https://falixnodes.net/" target="_blank">Main Website</a>
+            </div>
         </div>
-        <div class="h_right">
-            <div class="mobile_only">
-                <a id="ges" href="https://client.falixnodes.net/"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
-            </div>
-            <div class="desktop_only">
-                <a href="https://help.falixnodes.net/" target="_blank" rel="noopener">Help Center</a>
-                <a href="https://software.falixnodes.net/"">Desktop App</a>
-                <a id="ges" onclick="dropdownGS()"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
-                <div style="display: none;" class="dropdown_menu" id="dropdown_getStarted">
-                    <a href="https://client.falixnodes.net/" target="_blank" rel="noopener"><i class="fa-duotone fa-id-card"></i> Client Panel</a>
-                    <a href="https://panel.falixnodes.net/" target="_blank" rel="noopener"><i class="fa-duotone fa-server"></i> Game Panel</a>
-                </div>
-            </div>
+        <div class="rightHeader">
+            <a id="btn" href="https://client.falixnodes.net/"><i class="fa-duotone fa-arrow-right-to-line"></i> Get Started</a>
+            <a onclick="mobileMenu()" id="mobile-menu" class="mobile"><i class="fa-duotone fa-bars"></i></a>
+        </div>
+        <div id="mobileHeaderLinks">
+            <!-- <a href="/about/">About</a> -->
+            <!-- <a href="#">Plans</a> -->
+            <a href="https://desktop.falixnodes.net/" target="_blank">Desktop App</a>
+            <a id="individual-link-helpcenter" href="https://help.falixnodes.net/" target="_blank">Help Center</a>
+            <a id="individual-link-mainwebsite" href="https://falixnodes.net/" target="_blank">Main Website</a>
         </div>
     </div>
 </header>

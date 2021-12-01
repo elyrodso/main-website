@@ -1,0 +1,333 @@
+/*
+ FalixNodes.net is designed by Korbs Studio - You can contact Korbs Studio at "hello@korbsstudio.com".
+*/
+
+:root {
+    --accent: #2970cc;
+    --primary-background: #0f1d2d;
+    --secondary-background: #1c2e42;
+    --clamp: clamp(0px, calc(100% - 50px), 1000px);
+}
+
+body {
+    background: var(--primary-background);
+    color: #fff;
+    font-family: poppins;
+    overflow-x: hidden !important;
+    scroll-behavior: auto;
+}
+
+a {color: white; text-decoration: none;}
+img {border-radius: 7px; pointer-events: none;}
+video {pointer-events: none;}
+::selection {background: transparent; color: rgba(255, 255, 255, 0.5)}
+::-webkit-scrollbar {width: 0px;}
+h1, h2, h3, p, ui, img {cursor: default}
+button {background: var(--accent); border: none; color: white; padding: 12px 20px; border-radius: 4px; cursor: pointer;}
+button i {margin-right: 6px;}
+blockquote {
+    background: var(--secondary-background);
+    margin-left: 0px;
+    width: var(--clamp);
+    border-radius: 4px;
+    padding: 1px 15px 1px 20px;
+}
+
+/** Media Screen **/
+@media only screen and (max-width:1080px) {
+    .article, .se_content, .posts, .gwo-games, .frq {grid-template-columns: calc(100% - 0px) !important;}
+    .rightBFooter {right: initial !important; top: 46px !important;}
+    .content-hero {width: calc(100% - 0px) !important;}
+    .f_grid {grid-template-columns: auto !important;}
+    .desktop {display: none !important;}
+    #mobile-menu {display: initial !important;}
+    header::after {display: none !important;}
+}
+
+/** Error Page **/
+.error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    background: var(--secondary-background);
+    border-radius: 4px;
+    width: 350px;
+}
+.error h1 {
+    background: rgba(0,0,0,0.2);
+    margin: 0px;
+    padding: 10px 25px;
+    font-size: 24px;
+}
+.error h1 i {
+    margin-right: 10px;
+}
+.error p {
+    margin: 0px;
+    padding: 25px;
+}
+
+/** Hero **/
+#hero {
+    height: 350px;
+}
+.content-hero {
+    display: flow-root;
+    text-align: center;
+    margin-top: 60px;
+    width: 42%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+#heroIMG {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 480px;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.2;
+    border-radius: 0px;
+}
+
+/** Header **/
+header {
+    background: var(--accent);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+}
+.contentHeader {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: clamp(0px, calc(100% - 50px), 1000px);
+}
+.leftHeader {
+    position: absolute;
+    left: 0px;
+    top: -10px;
+}
+.leftHeader a {
+    margin: 0px 0px 0px 20px;
+    width: max-content;
+}
+.rightHeader {
+    position: absolute;
+    right: 0px;
+    top: 24px;
+}
+#menuHeader {
+    position: absolute;
+    display: flex;
+    top: 34px;
+    left: 80px;
+}
+#mobile-menu {
+    background: rgba(0,0,0,0.2);
+    padding: 4.5px 9px;
+    border-radius: 4px;
+    margin-left: 12px;
+    cursor: pointer;
+    display: none;
+}
+#mobile-menu:active {opacity: 0.5;}
+#mobileHeaderLinks {
+    position: fixed;
+    background: var(--secondary-background);
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    display: none;
+    grid-gap: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px 0px 15px 30px;
+}
+
+/** Footer **/
+.contentFooter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+}
+.leftBFooter {
+    position: absolute;
+    left: 0px;
+}
+.rightBFooter {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+}
+.f_grid {
+    display: grid;
+    grid-template-columns: auto 180px;
+    grid-gap: 25px;
+}
+.f_links a {display: grid;}
+.f_links a:hover {text-decoration: underline;}
+
+/** Content **/
+.content {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    width: var(--clamp);
+    display: grid;
+    grid-gap: 50px;
+}
+.se_content {
+    grid-template-columns: 490px 490px;
+    display: grid;
+    grid-gap: 25px;
+    align-items: center;
+}
+.se_content img {
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+}
+.se_content i {
+    margin-right: 12px;
+}
+
+/** Posts **/
+.posts {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-gap: 16px;
+}
+.posts h1 {
+    font-size: 14px;
+    padding: 0px 4px 6px 4px;
+}
+.posts h2 {
+    font-size: 0px;
+}
+.posts img {
+    width: 100%;
+    border-radius: 7px;
+}
+.card {
+    background: var(--secondary-background);
+    border-radius: 10px;
+    padding: 7px 7px 0px 7px;
+    cursor: pointer;
+}
+.card:hover {opacity: 0.8;}
+.card * {
+    cursor: pointer;
+}
+
+.article {
+    width: var(--clamp);
+}
+.article a {text-decoration: underline;}
+.article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* .plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.plan {
+    background: var(--secondary-background);
+    border-radius: 10px;
+    padding: 0px 10px 20px 40px;
+    display: grid;
+    grid-template-rows: 94px auto 45px;
+}
+.info-plan {
+    background: #2c4968;
+    display: grid;
+    grid-template-columns: auto 80px;
+    margin: 0px -10px 20px -40px;
+    padding: 0px 20px 0px 25px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+}
+#price {
+    text-align: right;
+}
+.button-plan button {
+    width: 100%;
+    margin: 16px 0px 0px -14px;
+    background: transparent;
+    border: 2px var(--accent) solid;
+    border-radius: 9px;
+    padding: 9px 0px;
+    transition: 0.3s background;
+}
+.button-plan button:hover {
+    background: var(--accent);
+    transition: 0.3s background;
+} */
+
+/* .staffs {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+}
+.staff {
+    background: var(--secondary-background);
+    padding: 20px;
+    border-radius: 10px;
+}
+.staff h1 {
+    font-size: 16px;
+}
+.staff img {
+    width: 120px;
+    border-radius: 100%;
+    height: 120px;
+    object-fit: cover;
+} */
+
+
+/* Supported Games Area */
+#gwo {
+    background: var(--secondary-background);
+    border-radius: 10px;
+    padding: 20px 60px 40px 60px;
+}
+#gwo h1 {
+    text-align: center;
+}
+.gwo-games {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* FAQ Area */
+#faq {
+    background: var(--secondary-background);
+    border-radius: 10px;
+    padding: 20px 60px 40px 60px;
+}
+#faq h1 {
+    text-align: center;
+}
+.frq {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+}
+.frq h1 {
+    text-align: left !important;
+    font-size: 18px;
+}
+
+/***** EXTRA *****/

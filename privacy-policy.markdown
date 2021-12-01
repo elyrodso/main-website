@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: post
 permalink: /privacy-policy/
 ---
 

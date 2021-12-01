@@ -1,23 +1,17 @@
-{% include header.html %}
-<head>
-    <meta name='description' content='{{ content  | truncatewords: 64 }}'>
-    <meta property="image" content="{{ post.image }}">
-</head>
-
-<div class="article">
-    {{content}}
-    {% include footer.html %}
-</div>
-
-
-<script>
-    const event11 = window.addEventListener('scroll', function(e) {
-        if(this.scrollY < 50) {
-            document.getElementById('h_').style.background = 'transparent';
-            document.getElementById('h_').style.backdropFilter = 'unset';
-        } else {
-            document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
-            document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
-        }
-    });
-</script>
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    {% include header.html %}
+    <body>
+        <div class="content">
+            <div class="article">
+                {{ content }}
+            </div>
+            <section>
+                {% include footer.html %}
+            </section>
+        </div>
+    </body>
+    <script>includeHTML()</script>
+</html>
+<style>#individual-link-mainwebsite{display: none;}</style>

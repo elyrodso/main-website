@@ -1,11 +1,9 @@
-title: Falix
+title: FalixNodes
+email: korbs@falixnodes.net
 baseurl: ""
 url: ""
-theme: minima
-
 plugins:
   - jekyll-feed
-  # - jekyll-redirect-from
-
-# whitelist:
-#   - jekyll-redirect-from
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
