@@ -42,6 +42,13 @@ blockquote {
     .desktop {display: none !important;}
     #mobile-menu {display: initial !important;}
     header::after {display: none !important;}
+    /* Help Center */
+    .desktop_only, .install-plugin {display: none !important;}
+    #ges {margin-right: 30px !important;}
+    p#date {display: flex !important; margin-top: 38px !important;}
+    .sections, .article, .h_content {width: calc(100% - 50px) !important;}
+    .category-articles, .ct ui {grid-template-columns: 50% 50% !important;}
+    .faq {grid-template-columns: calc(100%  - 50px) !important;}
 }
 
 /** Error Page **/
@@ -237,6 +244,10 @@ header {
     width: 100%;
     border-radius: 10px;
 }
+.article video {
+    width: 100%;
+    border-radius: 10px;
+}
 
 /* .plans {
     display: grid;
@@ -343,4 +354,147 @@ header {
     font-size: 18px;
 }
 
+/** Help Center - Sections **/
+.sections {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: var(--clamp);
+}
+
+/** Help Center - Hero **/
+.hero {
+    height: 390px;
+}
+.hero h1 {
+    position: absolute;
+    top: 260px;
+    font-size: 42px;
+}
+video#hero {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    object-fit: cover;
+    height: 390px;
+    z-index: -1;
+}
+
+/** Plugin Header - For plugin articles on the help center */
+
+.install-plugin {
+    background: #182c44;
+    display: flex;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.install-plugin img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+.install-plugin h2 {
+    position: absolute;
+    margin: 0px 0px 0px 84px;
+}
+.install-plugin h3 {
+    position: absolute;
+    margin: 30px 0px 0px 84px;
+    opacity: 0.5;
+}
+.install-plugin a {
+    position: absolute;
+    right: 17px;
+    background: var(--accent);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 8px;
+    font-weight: ;
+    text-decoration: none;
+}
+
+/** Minecraft Edition Picker **/
+.minecraft-edition-picker {
+    background: #182c44;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto 80px 100px;
+    padding: 0px 7px 0px 20px;
+    margin-top: 20px;
+}
+.minecraft-edition-picker button {
+    background: #0000002e;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.minecraft-edition-picker h1 {
+    font-size: 18px;
+}
+
+/** Help Center - FAQ Area **/
+.faq {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+.qmf button {
+    text-align: ;
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.question p {
+    font-size: 14px;
+}
+.questions h2 {
+    font-size: 18px;
+}
+
+/** Breadcrumbs **/
+#breadcrumbs a {color: var(--accent);}
+
+/** Categories **/
+.category-articles {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-gap: 0px 12px;
+}
+.category-articles button, button#ica {
+    display: grid;
+    grid-template-columns: 22px auto;
+}
+.category-articles button, button#ica {
+    text-align: left;
+    background: #182c44;
+    color: white;
+    border: none;
+    padding: 17px 20px;
+    border-radius: 4px;
+    margin: 0px 4px 10px 0px;
+    cursor: pointer;
+    align-items: center;
+}
+.category-articles button:hover, button#ica:hover {
+    opacity: 0.8;
+}
+#article-icon {
+    font-size: 24px;
+    align-self: stretch;
+}
+#title {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
 /***** EXTRA *****/
+
