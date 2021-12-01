@@ -330,4 +330,17 @@ header {
     font-size: 18px;
 }
 
+/** Events **/
+.event {
+    text-align: center;
+    margin-top: 31%;
+}
+.event h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+.event h2 {
+    font-size: 18px;
+}
+
 /***** EXTRA *****/
