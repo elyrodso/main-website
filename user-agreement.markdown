@@ -61,7 +61,7 @@ Our methods of refund confirmation are: contacting us at [support@falixnodes.net
 
 ### Inactivity System
 
-All your servers and services will be SUSPENSED after a period inactivity of 7 DAYS from you. After a period of 14 DAYS being suspended, your server will be deleted. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
+All your services and servers created by you will be suspended after 7 days of inactivity from you on our Client Panel. After 7 days of suspension, your server will be deleted. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
 
 ### Support for FalixNodes services
 
