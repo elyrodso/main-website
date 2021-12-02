@@ -15,10 +15,11 @@ At the moment of registration at our services, you, as a user, will agree with o
 
 ### Collected Information
 
-By registering on our site and accepting our terms, you agree to submit the following information when registering or logging in using your Discord account: linked email address, username, user actions. 
-After or at registration, we can request or collect: first and last name, home address, phone number, e-mail address and payment method.
+By registering on our site and accepting our terms, you agree to submit the following information when registering: first and last name, e-mail address, IP address upon registration, IP address upon last login, country of entry, last time login date, and Discord user ID (when registering via the Discord service).
 
-We follow a standard mode of collecting essential data, this information collected by the log files includes your browser type, Internet Service Provider (ISP), IP addresses and time stamp. The purpose of this information is solely for analysis and to retrieve demographic information. This data is not linked to any personally identifiable information. 
+By concluding a payment on our services, you consent to submit the following information: bank card details, billing address, country, first and last name. All this information will be used for payments using [Stripe](https://stripe.com/br/about) as the connection point between our services and you.
+
+We follow a standard mode of collecting essential data, this information is stored as your IP addresses, Internet Service Provider (ISP), country and time stamp. This data is not linked to any personally identifiable information and is used only for analysis, security purposes and control by Cloudfare. This information and few others that cannot be identified are also handled by Google Analytics for mass identification of registered/active users.
 
 ### Usage of your information
 
@@ -37,9 +38,7 @@ We have full right to update our User Agreement, Privacy Policy, Cookie Policy, 
 
 After accepting our request to send you customized data, tracking data and ad contents customizations will be sent to our third-party advertisers, all this data will be used for marketing purposes. 
 
-Google is our provider of advertisements in connection with our services. In addition, it also uses cookies to serve ads to our websites or other sites on the Internet. You can refuse the use of these cookies by declining our data submission consent pop-up, or by visiting Google's [Privacy Policy for ads](https://policies.google.com/technologies/ads).
-
-Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Falix, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+Google AdSense is our provider of advertisements in connection with our services. In addition, it also uses cookies (referred to as "DART cookies") to serve customized ads to our websites or other sites on the Internet. You can refuse the use of these cookies by declining our data submission consent pop-up, or modify and customize your submitted data by following the Google AdSense [Help Center](https://support.google.com/adsense/answer/1348695).
 
 Our third-party providers use cookies, Web Beacons, or JavaScript technology to serve ads that appear on FalixNodes, delivered directly to your browser. These technologies are used to identify the effectiveness of their campaigns or to customize the contents of available advertisements.
 
@@ -48,7 +47,9 @@ Note that FalixNodes has no access to or control over these cookies that are use
 <!-- Rewritted the cookie policy in the privacy policy directly -->
 ### User Cookies Management
 
-Our systems will use cookies to save user preferences, themes, language settings, login information and mouse movement tracking. You will have the right to reject cookies data submissions to our third-party vendors. All cookies created for our services may be deleted by users at any time.
+Our systems will use cookies to save user preferences, themes, language settings and/or login information. You will have the right to reject cookies data submissions to our third-party vendors. All cookies created for our services may be deleted by users at any time.
+
+As mentioned before, our ad provider will create custom cookies for the best ad suggestion on our services. You can refuse these cookies by declining our data submission consent pop-up, or by modifying and customizing your date, as stated in the Google AdSense [Help Center](https://support.google.com/adsense/answer/1348695).
 
 ### General Data Protection Regulation (GDPR)    
 
@@ -70,4 +71,4 @@ In accordance with the CCPA, we will always ask permission from our users to sen
 
 ### Additional information or Assistance
 
- We invite you to discuss your collected data in more detail exercised in this document contacting us at [support@falixnodes.net](mailto:support@falixnodes.net), or by our official support team on our [Support Discord Server](https://discord.com/invite/falixnodes).
+ We invite you to discuss your collected data in more detail exercised in this document contacting us at [dpo@falixnodes.net ](mailto:dpo@falixnodes.net ), or by our official support team on our [Support Discord Server](https://discord.com/invite/falixnodes).
