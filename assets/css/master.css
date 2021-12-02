@@ -465,6 +465,11 @@ video#hero {
 #breadcrumbs a {color: var(--accent);}
 
 /** Categories **/
+.ct ui {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-gap: 0px 3px;
+}
 .category-articles {
     display: grid;
     grid-template-columns: 326px 326px 326px;
