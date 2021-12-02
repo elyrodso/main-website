@@ -47,9 +47,17 @@ Upon cancellation of your account by you, all your important data will be delete
 
 We will not have any means of return for the loss of your servers and services registered to your now deleted account. You must agree that any next account you create will be fully reset to the default.
 
-### Payment Gateways
+<!-- Rewritted the refund policy in the user agreement directly -->
 
-You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, bank accounts). You should use our Refund Policy and contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the amount paid + 5 GBP fee.
+### Refund Policy and requests
+
+You have the right to request for refund of any charges on our services within a validity period of 24 hours after purchase. You must provide a reason for the continued return. Some services we provide will not be able to continue with a refund request, these being: dedicated servers, paid domains, purchasing our own currency, and user-created servers/services configuration packages.
+
+After the refund request resolved, any request after the purchase of the same service will be denied. All our requests may take up to 3 working days.
+
+You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, bank accounts). You may contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the amount paid + 5 GBP fee. 
+
+Our methods of refund confirmation are: contacting us at [support@falixnodes.net](mailto:support@falixnodes.net), or by our official support team on our [Support Discord Server](https://discord.com/invite/falixnodes).
 
 ### Inactivity System
 
