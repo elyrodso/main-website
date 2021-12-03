@@ -166,6 +166,9 @@ header {
     transform: translate(-50%);
     width: 100%;
 }
+footer h1 {
+    font-size: 24px !important;
+}
 .leftBFooter {
     position: absolute;
     left: 0px;
