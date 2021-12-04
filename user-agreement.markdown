@@ -47,13 +47,19 @@ Upon cancellation of your account by you, all your important data will be delete
 
 We will not have any means of return for the loss of your servers and services registered to your now deleted account. You must agree that any next account you create will be fully reset to the default.
 
-### Payment Gateways
+### Refund Policy and requests
 
-You are not allowed to chargeback or ask the refund in our Payment Gateways (E.g PayPal, bank accounts). You should use our Refund Policy and contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the amount paid + 5 GBP fee.
+You have the right to request for refund of any charges on our services within a validity period of 14 days after purchase. You can send reasons and suggestions in the refund request. Some services we provide will not be able to continue with a refund request, these being user-created servers/services configuration packages.
+
+After the refund request resolved, any request after the purchase of the same service will be denied. All our requests may take up to 3 working days.
+
+You are not allowed to chargeback or ask the refund in our Payment Gateways. You may contact us to resolve the situation properly. Any chargeback or Payment Gateways refund will terminate your account indefinitely until you pay the amount paid + 5 GBP fee. 
+
+Our methods of refund confirmation are: contacting us at [finance@falixnodes.net](mailto:finance@falixnodes.net), or by our official support team on our [Support Discord Server](https://discord.com/invite/falixnodes).
 
 ### Inactivity System
 
-All your servers and services will be SUSPENSED after a period inactivity of 7 DAYS from you. After a period of 14 DAYS being suspended, your server will be deleted. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
+All your services and servers created by you will be suspended after 7 days of inactivity from you on our Client Panel. After 7 days of suspension, your server will be deleted. You have the right to reset this count by logging back into your account from the Client Panel. In case your servers and services are deleted, we will not be responsible for the loss of files and backups.
 
 ### Support for FalixNodes services
 
