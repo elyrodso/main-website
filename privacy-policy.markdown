@@ -5,56 +5,70 @@ permalink: /privacy-policy/
 
 # Privacy Policy
 
-### Why is Privacy Policy required?
+We as a company ("FalixNodes" and "Falix") will always maintain the highest possible data privacy for our customers, this Privacy Policy document tells you how FalixNodes collects and maintains your data and how we use it.
 
-The requirement of Privacy Policy is to better serve customers which are considering their own privacy in our data storages,to make sure the FalixNodes is compliance with all data protection laws and to be transparent between our customers and us (FalixNodes).
+If you have any questions or concerns about our model Privacy Policy, damage prevention, data collection and other cases related to your data, contact us through our available support means.
 
-### What information do we collect from customers and visitors?
+The Privacy Policy applies only to our online services, valid only for users registered on our websites. This Privacy Policy does extend to any official services listed in this document, including: our websites, panels, applications and official non-monetary support services.
 
-IF YOU ARE USING OUR FREE HOSTING: We are collecting this information (Your discord account’s e-mail address, discord account’s username, your discord account activities (joined guilds), PayPal email (collected if purchased any plan), phone number, recorded IP address upon first registration and lastlogin’s IP address) if you are registering in our website & services (Discord button upon auth page), and if you are visiting our website (Client Panel & Main), you are agreeing to Google Analytics privacy policy, Google Adsense privacy policy and our privacy policy.
+At the moment of registration at our services, you, as a user, will agree with our User Agreement, therefore accepting our listed Privacy Policy, Refund Policy and Cookies Policy document.
 
-IF YOU ARE USING OUR PREMIUM (PAID) HOSTING: We are collecting this information (Your first and last name, address, IP address, phone number, e-mail address, discord username, country, city, company name \[if any\],tax ID \[if any\], and ISP name) if you are registering in our billing panel & services. If you are visiting our website then You also agree to Google Analytics and Adsense.
+### Collected Information
 
-### How we use collected information from customers and visitors?
+By registering on our site and accepting our terms, you agree to submit the following information when registering: first and last name, e-mail address, IP address upon registration, IP address upon last login, country of entry, last time login date, and Discord user ID (when registering via the Discord service).
 
-If you’re a registered customer, we use your collected information to provide you with the services, preventfuture fraud behalfthe future customers,to have usable experience for our customers and offer to review our services.
+By concluding a payment on our services, you consent to submit the following information: bank card details, billing address, country, first and last name. All this information will be used for payments using [Stripe](https://stripe.com/br/about) as the connection point between our services and you.
 
-### The database breach notification
+We follow a standard mode of collecting essential data, this information is stored as your IP addresses, Internet Service Provider (ISP), country and time stamp. This data is not linked to any personally identifiable information and is used only for analysis, security purposes and control by Cloudfare. This information and few others that cannot be identified are also handled by Google Analytics for mass identification of registered/active users.
 
-In case the database breach happens, we will notify aboutit within 15 days to make sure the customers can change our service’s account password to be safe and to compliance with data protection laws.
+### Usage of your information
 
-### Privacy Policy change notification
+Our data collection can be used in different ways, including:
+*   Provide improvements to the structure of our websites.
+*   Development of products of interest to the users.
+*   Communication methods, also including our official support modality.
+*   Preventing fraud and false accusation of identity.
+*   Send e-mails for user confirmation, important announcements, security alerts, and support.
 
-Incase Privacy Policy changes, we will notify allthe customers 1 day before the Privacy Policy change in the force of use. The notification will be noticed in discord group of FalixNodes.
+### Privacy Policy changes or updates
 
-### Which data is shared to third party companies
+We have full right to update our User Agreement, Privacy Policy, Cookie Policy, and Refund Policy at any time. We will alert our users of any such changes by notifications within our services, or in our support Discord server. Any changes made to our policies will take effect on our services within 24 hours of being updated.
 
-When you visit our website (Client Panel and Main) and agree to Google Analytics and Google Adsense, you consentto give your country name, device info, browser info and other information to Google,to know more information, please review Google Analytics and Adsense privacy policy. And when you register, you consentto allow us to share the e-mail address with Trustpilot. Any other customer Infos are not shared with third-party companies
+### Third Party Data Management
 
-### Where the customer data is stored?
+After accepting our request to send you customized data, tracking data and ad contents customizations will be sent to our third-party advertisers, all this data will be used for marketing purposes. 
 
-All information and data are stored inside of EEA/Europe Union.
+Google AdSense is our provider of advertisements in connection with our services. In addition, it also uses cookies (referred to as "DART cookies") to serve customized ads to our websites or other sites on the Internet. You can refuse the use of these cookies by declining our data submission consent pop-up, or modify and customize your submitted data by following the Google AdSense [Help Center](https://support.google.com/adsense/answer/1348695).
 
-### How long will collected data be stored?
+Our third-party providers use cookies, Web Beacons, or JavaScript technology to serve ads that appear on FalixNodes, delivered directly to your browser. These technologies are used to identify the effectiveness of their campaigns or to customize the contents of available advertisements.
 
-All collected data will be stored till the date of account and services termination or withdrawal of customer request.
+Note that FalixNodes has no access to or control over these cookies that are used by third-party providers.
 
-### European Citizens rights
+<!-- Rewritted the cookie policy in the privacy policy directly -->
+### User Cookies Management
 
-European Citizens have the right to:
+Our systems will use cookies to save user preferences, themes, language settings and/or login information. You will have the right to reject cookies data submissions to our third-party vendors. All cookies created for our services may be deleted by users at any time.
 
-*   Withdrawal from the User Agreement. To withdraw consentfrom User Agreement, please contact us via [support@falixnodes.net](mailto:support@falixnodes.net), WhatsApp support or discord ticket support. Once withdrawal completed, You will no longer be able to use our services and we will no longer store your collected information.
-*   Requestthe collected data. You can request your collected data to be sure we are collecting the specific information which we’ve told in our Privacy Policy. To requestthe collected data, please contact us via [support@falixnodes.net](mailto:support@falixnodes.net), WhatsApp support or discord ticket support,the request will be completed within 5 workdays and will be sent to customer’s email.
-*   The rightto restrict us from specific data collection and processing. If you would like to restrict us from specific data collection and processing, please contact us via discord supportticket.<
+As mentioned before, our ad provider will create custom cookies for the best ad suggestion on our services. You can refuse these cookies by declining our data submission consent pop-up, or by modifying and customizing your date, as stated in the Google AdSense [Help Center](https://support.google.com/adsense/answer/1348695).
 
-### How do we secure and protect the collected data?
+### General Data Protection Regulation (GDPR)    
 
-We’ve made a decision which means a lot of your collected data are stored behalf of other companies (ex. Discord account password)to be sure the smallest collected data which is handled by us. Any other collected data which are handled by us are stored in the protected database with strong security and strict authorization by only few trusted managementteam.
+In accordance with the GDPR, we will store necessary user data, monitor and recording it, always requesting the user's permission to send information to other sources.
 
-### CPPA (California Online Privacy Protection Act)
+All users have the right to:
+*   Accessing your personal data. Confirming that we are in compliance with our regulations.
+*   Readjust your data. You have the full right to readjust your data or complete your details, either by account settings page or by support.
+*   Erase your data. You have the right to delete your data from our services.
+*   Restrict your data. You have the right to ask for restriction of your data, only under certain exceptions.
+*   Redirect your data. You have the right to redirect your data to you or other organizations, with some exceptions.
 
-The CPPA is made to protect any USA state citizen data and all ofthe international and internal companies need to follow the act. Due to CPPA you have rights to visit anonymously, see the Privacy Policy link at our website pages and you have rightto change your personal information in our collected data.
+### California Consumer Privacy Act (CCPA)
 
-### Contacts where FalixNodes legalteam can be contacted
+In accordance with the CCPA, we will always ask permission from our users to send their data to other partner companies, and users who fall under the CCPA's jurisdiction are eligible to:
+*   Not receive discriminatory treatment of our service. We have no right to discriminate against our users as to pay for inferior services or treatment for not agreeing to provide their personal information.
+*   Delete their data. Users can delete their personal information without any objections from our services.
+*   Collect their data. Users will be able to collect their personal information from our services, request information from whom it was sent and reformulate this personal information.
 
-You can contactto our FalixNodes legalteam via discord group, [support@falixnodes.net](mailto:support@falixnodes.net), and WhatsApp.
+### Additional information or Assistance
+
+ We invite you to discuss your collected data in more detail exercised in this document contacting us at [dpo@falixnodes.net ](mailto:dpo@falixnodes.net ), or by our official support team on our [Support Discord Server](https://discord.com/invite/falixnodes).
